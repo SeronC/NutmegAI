@@ -5,7 +5,7 @@ from fastapi.responses import JSONResponse
 import uvicorn
 
 from config import settings
-from routes import chatbot
+from app.routes import chatbot
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
